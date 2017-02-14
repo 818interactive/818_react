@@ -1,0 +1,10 @@
+/*Header*/
+#header {
+	position: absolute;
+	z-index: 10000;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-bottom: -4%;
+	margin-left: -2%;
+}
