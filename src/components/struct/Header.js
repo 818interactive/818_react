@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
-import { browserHistory } from 'react-router';
+import { browserHistory, Link } from 'react-router';
 
 import '../css/struct.css'
 
@@ -36,7 +36,12 @@ export default class Header extends Component {
 	        </Menu>
 				</div>
 				<div className="mobile">
-				
+					<ul>
+						<li><Link to="/home">Home</Link></li>
+						<li><Link to="/about">About</Link></li>
+						<li><Link to="/contact">Contact</Link></li>
+						<li><Link to="/faq">Faq</Link></li>
+					</ul>
 				</div>
 			</div>
 		);

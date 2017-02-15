@@ -1,6 +1,6 @@
 #home{
 	position: absolute;
-	width:100%;
+	width:100vw;
 	height:600px;
 	background-image: url('/images/home.jpg');
 	background-size: cover;
@@ -40,4 +40,60 @@
 	margin-top:20%;
 	height: 350px;
 	border-right:1px solid #fff;
+}
+
+@media screen and (max-width: 800px){
+	#home{
+		height: 400px;
+	}
+	.main{
+		padding-top: 30%;
+		font-size: 50px; 
+	}
+	.main_num{
+		font-size: 70px;
+	}
+	.design{
+		font-size: 30px;
+	}
+	.line{
+		padding-top: 30%;
+		height: 250px;
+	}
+}
+@media screen and (max-width: 600px){
+	#home{
+		height: 350px;
+	}
+	.main{
+		font-size: 40px; 
+	}
+	.main_num{
+		font-size: 60px;
+	}
+	.design{
+		font-size: 20px;
+	}
+	.line{
+		padding-top: 45%;
+		height: 220px;
+	}
+}
+@media screen and (max-width: 480px){
+	#home{
+		height: 220px;
+	}
+	.main{
+		font-size: 30px; 
+	}
+	.main_num{
+		font-size: 50px;
+	}
+	.design{
+		font-size: 17px;
+	}
+	.line{
+		padding-top: 55% !important;
+		height: 150px;
+	}
 }
