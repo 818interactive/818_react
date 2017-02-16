@@ -44,14 +44,14 @@ class App extends Component {
         </Element>
 
         {/* Contact Component */}
-        <Element className="element" name="contact">
+        {/*<Element className="element" name="contact">
 				  <Contact/>
-        </Element>
+        </Element>*/}
 
         {/* Footer Component */}
       	<Footer/>
 
-        <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={700}>
+        {/*<Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={700}>
           Go to first  inside container
         </Link>
         <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={700}>
@@ -67,7 +67,7 @@ class App extends Component {
         <br/>
         <a onClick={this.scrollTo}>Scroll to 100px from the top</a>
         <br/>
-        <a onClick={this.scrollMore}>Scroll 100px more from the current position!</a>
+        <a onClick={this.scrollMore}>Scroll 100px more from the current position!</a>*/}
       </div>
     );
   }
